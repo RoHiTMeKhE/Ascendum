@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Reading input string
+echo "Enter a string:"
+read input
+
+# Reversing the string
+reversed=$(echo "$input" | rev)
+
+# Output the reversed string
+echo "Reversed string: $reversed"
+
+
+Eg: Ascendum
+o/p; mudnecsA
