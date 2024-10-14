@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Define the host
+host="google.com"
+
+# Ping the host
+ping -c 2 "$host" > /dev/null
+
+# Check the exit status of ping command
+if [ $? -eq 0 ]; then
+    echo "Host $host is reachable."
+else
+    echo "Host $host is unreachable."
+fi
+
+
+o/p : Host is reachable
